@@ -146,10 +146,15 @@ font-size: 14px;
 
 #slider{
     position: relative;
-min-height: 500px;
+
 margin-top: 46px;
-padding-top:50%;
-background: url('/The_Band/assets/img/slider1.jpg') top center / cover no-repeat ;
+
+
+}
+
+#slider .img_heading {
+    vertical-align: middle;
+    border-style: none;
 }
 
 #slider .text-content {
@@ -168,10 +173,16 @@ transform: translateX(-50%);
 text-align: center;
 
 color: #fff;
+
+
 }
 
 #slider .text-dis {
-margin-top: 25px;
+margin: 15px;
+}
+
+#slider .text-heading {
+    margin: 10px;
 }
 
  
